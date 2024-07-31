@@ -1,14 +1,15 @@
 <template id="app">
   <Navbar/>
-  <p>Hello there</p>
+  <hero-section/>
 </template>
 
 <script>
 import {defineComponent} from "vue";
 import Navbar from "@/components/Navbar.vue";
+import HeroSection from "@/components/HeroSection.vue";
 
 export default defineComponent({
-  components: {Navbar}
+  components: {HeroSection, Navbar}
 })
 </script>
 

@@ -116,7 +116,7 @@ export default {
 
 <style scoped>
 .text-lg-custom {
-  font-size: 25px; /* Set font size to 35px */
+  font-size: 24px; /* Set font size to 35px */
 }
 </style>
 
