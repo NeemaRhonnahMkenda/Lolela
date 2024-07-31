@@ -1,7 +1,7 @@
 <template>
   <div class="flex dark:bg-custom-brown">
     <div class="flex-1">
-      <p class="ml-36 mt-24 text-amber-50 leading-loose underline lolela-text">LOLELA</p>
+      <p class="ml-36 mt-32 text-amber-50 leading-loose underline lolela-text">LOLELA</p>
       <p class="ml-32 -mt-12 text-amber-50 tracking-widest" style="font-family: Sacramento, cursive; font-size: 35px;">skinare | cosmetics | everything in between</p>
     </div>
     <div class="" style="margin-left: 30px;">
