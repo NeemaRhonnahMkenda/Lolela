@@ -11,7 +11,9 @@
           the world.</p>
         <p>We source our products from reputable brands and strive to provide our clients
           with the best possible pricing.</p>
-        <p>Sunday - Friday, 8AM to 6PM.</p>
+        <div class="info-box">
+          <p>Sunday - Friday, 8AM to 6PM.</p>
+        </div>
         <p>Online store based in Lusaka</p>
         <p>Countrywide delivery</p>
       </div>
@@ -72,5 +74,15 @@ export default {
   margin-top: 20px;
   font-size: 25px;
   text-align: center;
+}
+
+.info-box p{
+  background-color: #90543C; /* Adjust the background color as needed */
+  border-radius: 30px; /* Adjust the border-radius as needed */
+  display: inline-block;
+  position: relative;
+  color: white;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 </style>
