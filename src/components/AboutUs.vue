@@ -3,24 +3,24 @@
     <div class="mt-16 ml-20">
       <img :src="currentImage" alt="Slideshow image" class="h-auto" style="width: fit-content"/>
     </div>
-    <div>
-      <h1 class="mt-32 ml-40 text-7xl" style="color: #CD5B1D;">Who are we?</h1>
-      <div class="line ml-40"></div>
-      <div class="description-lolela">
-        <p>Lolela is a small sourcing business that brings you the best <span style="color: #CE4900">skincare, cosmetics & beauty products</span> from around
-          the world.</p>
-        <p>We source our products from reputable brands and strive to provide our clients
-          with the best possible pricing.</p>
+    <div class="flex flex-col items-center justify-center"> <!-- Flex container to center content -->
+      <h1 class="mt-32 text-[#CD5B1D] text-center" style="font-size: 60px">Who are we?</h1>
+      <div class="line mt-3"></div>
+      <div class="description-lolela mt-4">
+        <p>Lolela is a small sourcing business that brings you the best <span class="text-[#CE4900]">skincare, cosmetics & beauty products</span>
+          from around the world.</p>
+        <p>We source our products from reputable brands and strive to provide our clients with the best possible
+          pricing.</p>
         <div class="info-box">
           <p>Sunday - Friday, 8AM to 6PM.</p>
         </div>
         <p>Online store based in Lusaka</p>
         <p>Countrywide delivery</p>
       </div>
-
     </div>
   </div>
 </template>
+
 
 <script>
 export default {
@@ -63,7 +63,7 @@ export default {
 
 .line {
   margin-top: 9px;
-  width: 360px; /* Adjust the width as needed */
+  width: 200px; /* Adjust the width as needed */
   height: 3px; /* Adjust the height as needed */
   background-color: #CD5B1D; /* Match the color of the text */
 }
@@ -76,7 +76,7 @@ export default {
   text-align: center;
 }
 
-.info-box p{
+.info-box p {
   background-color: #90543C; /* Adjust the background color as needed */
   border-radius: 30px; /* Adjust the border-radius as needed */
   display: inline-block;
