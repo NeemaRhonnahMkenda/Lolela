@@ -4,6 +4,7 @@
   <about-us/>
   <our-products/>
   <contact-us/>
+  <Footer/>
 </template>
 
 <script>
@@ -13,9 +14,10 @@ import HeroSection from "@/components/HeroSection.vue";
 import AboutUs from "@/components/AboutUs.vue";
 import OurProducts from "@/components/OurProducts.vue";
 import ContactUs from "@/components/ContactUs.vue";
+import Footer from "@/components/Footer.vue"
 
 export default defineComponent({
-  components: {ContactUs, OurProducts, AboutUs, HeroSection, Navbar}
+  components: {ContactUs, OurProducts, AboutUs, HeroSection, Navbar, Footer}
 })
 </script>
 
