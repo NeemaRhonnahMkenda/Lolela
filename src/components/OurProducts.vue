@@ -98,7 +98,7 @@ export default {
 .line {
   width: 200px; /* Adjust the width as needed */
   height: 3px; /* Adjust the height as needed */
-  background-color: #CD5B1D; /* Match the color of the text */
+  background-color: #BC6A6A; /* Match the color of the text */
 }
 
 .line2 {
