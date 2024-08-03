@@ -1,9 +1,17 @@
 <template id="app">
-  <Navbar/>
-  <hero-section/>
-  <about-us/>
-  <our-products/>
-  <contact-us/>
+  <Navbar class="sticky top-0 z-20"/>
+  <div id="hero-section">
+    <hero-section/>
+  </div>
+  <div id="about-us">
+    <about-us/>
+  </div>
+  <div id="our-products">
+    <our-products/>
+  </div>
+  <div id="contact-us">
+    <contact-us/>
+  </div>
   <Footer/>
 </template>
 
@@ -14,7 +22,7 @@ import HeroSection from "@/components/HeroSection.vue";
 import AboutUs from "@/components/AboutUs.vue";
 import OurProducts from "@/components/OurProducts.vue";
 import ContactUs from "@/components/ContactUs.vue";
-import Footer from "@/components/Footer.vue"
+import Footer from "@/components/Footer.vue";
 
 export default defineComponent({
   components: {ContactUs, OurProducts, AboutUs, HeroSection, Navbar, Footer}
