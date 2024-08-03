@@ -49,7 +49,7 @@
           <li>
             <a
                 href="/#about-us"
-                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-[#E3CDC1] md:hover:bg-transparent md:hover:text-orange-600"
+                class="block py-2 px-3 md:p-0 text-white rounded hover:bg-[#E3CDC1] md:hover:bg-transparent md:hover:text-orange-600"
             >
               About Us
             </a>
@@ -57,7 +57,7 @@
           <li>
             <a
                 href="/#our-products"
-                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-[#E3CDC1] md:hover:bg-transparent md:hover:text-blue-700"
+                class="block py-2 px-3 md:p-0 text-white rounded hover:bg-[#E3CDC1] md:hover:bg-transparent md:hover:text-blue-700"
             >
               Our Products
             </a>
@@ -65,7 +65,7 @@
           <li>
             <a
                 href="/#contact-us"
-                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-[#E3CDC1] md:hover:bg-transparent md:hover:text-blue-700"
+                class="block py-2 px-3 md:p-0 text-white rounded hover:bg-[#E3CDC1] md:hover:bg-transparent md:hover:text-blue-700"
             >
               Contact Us
             </a>
