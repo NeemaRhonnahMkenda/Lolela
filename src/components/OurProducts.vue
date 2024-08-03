@@ -5,11 +5,31 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 mx-auto" style="width: 89%">
       <!-- Loop through the first three items in the Grids array -->
       <div v-for="(item, index) in Grids.slice(0, 3)" :key="index" class="relative group">
-        <img :src="item.image" alt="Product image" class="w-full h-auto object-cover" />
-        <div
-          class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center flex-col text-center p-4">
-          <h2 class="text-white mb-2" style="font-size: 27px; font-family: Sacramento, cursive; color: #D7560F;">{{ item.description.heading }}</h2>
-          <p class="text-white text-lg">{{ item.description.paragraph }}</p>
+        <img :src="item.image" alt="Product image" class="w-full h-auto object-cover"/>
+        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100
+        transition-opacity duration-300 flex items-center justify-center flex-col p-4 m-auto"
+             style="width: 350px; height: 350px;
+          background-color: #E3CDC1;">
+          <h2 class="text-white mb-2" style="font-size: 27px; font-family: Sacramento, cursive; color: #D7560F;">
+            {{ item.description.heading }}</h2>
+          <div class="line2 mb-6"></div>
+          <p class="text-[#A46565]" style="font-size: 22px; font-family: Libre Caslon Display, sans-serif;">{{ item.description.paragraph }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 mx-auto mt-9" style="width: 89%;">
+      <!-- Loop through the first three items in the Grids array -->
+      <div v-for="(item, index) in Grids.slice(3, 6)" :key="index" class="relative group">
+        <img :src="item.image" alt="Product image" class="w-full h-auto object-cover"/>
+        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100
+        transition-opacity duration-300 flex items-center justify-center flex-col p-4 m-auto"
+             style="width: 350px; height: 350px;
+          background-color: #E3CDC1;">
+          <h2 class="text-white mb-2" style="font-size: 27px; font-family: Sacramento, cursive; color: #D7560F;">
+            {{ item.description.heading }}</h2>
+          <div class="line2 mb-6"></div>
+          <p class="text-[#A46565]" style="font-size: 22px; font-family: Libre Caslon Display, sans-serif;">{{ item.description.paragraph }}</p>
         </div>
       </div>
     </div>
@@ -73,11 +93,18 @@ export default {
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
 
 .line {
   width: 200px; /* Adjust the width as needed */
   height: 3px; /* Adjust the height as needed */
   background-color: #CD5B1D; /* Match the color of the text */
+}
+
+.line2 {
+  width: 150px; /* Adjust the width as needed */
+  height: 1px; /* Adjust the height as needed */
+  background-color: #DCADAD; /* Match the color of the text */
 }
 
 .relative {
@@ -106,10 +133,6 @@ export default {
 
 .text-white {
   color: #fff;
-}
-
-.text-lg {
-  font-size: 1.125rem; /* Adjust as needed */
 }
 
 .flex {

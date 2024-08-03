@@ -4,7 +4,7 @@
       <img :src="currentImage" alt="Slideshow image" class="h-auto" style="width: fit-content"/>
     </div>
     <div class="flex flex-col items-center justify-center"> <!-- Flex container to center content -->
-      <h1 class="mt-32 text-[#CD5B1D] text-center" style="font-size: 60px">Who are we?</h1>
+      <h1 class="mt-20 text-[#CD5B1D] text-center" style="font-size: 60px">Who are we?</h1>
       <div class="line mt-3"></div>
       <div class="description-lolela mt-4">
         <p>Lolela is a small sourcing business that brings you the best <span class="text-[#CE4900]">skincare, cosmetics & beauty products</span>

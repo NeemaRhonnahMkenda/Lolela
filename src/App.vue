@@ -3,6 +3,7 @@
   <hero-section/>
   <about-us/>
   <our-products/>
+  <contact-us/>
 </template>
 
 <script>
@@ -11,9 +12,10 @@ import Navbar from "@/components/Navbar.vue";
 import HeroSection from "@/components/HeroSection.vue";
 import AboutUs from "@/components/AboutUs.vue";
 import OurProducts from "@/components/OurProducts.vue";
+import ContactUs from "@/components/ContactUs.vue";
 
 export default defineComponent({
-  components: {OurProducts, AboutUs, HeroSection, Navbar}
+  components: {ContactUs, OurProducts, AboutUs, HeroSection, Navbar}
 })
 </script>
 
